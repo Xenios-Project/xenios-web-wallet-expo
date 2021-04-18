@@ -2,7 +2,7 @@
   "expo": {
     "name": "xenios-wallet-android-expo",
     "slug": "xenios-wallet-android-expo",
-    "version": "1.0.0",
+    "version": "0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xenioscoin.wallet"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.xenioscoin.wallet"
     },
     "web": {
       "favicon": "./assets/favicon.png"

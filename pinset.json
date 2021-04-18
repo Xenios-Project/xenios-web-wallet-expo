@@ -1,0 +1,9 @@
+{
+  "domains": {
+    "*.xenioscoin.com": {
+      "pins": [
+        "w6oCQfCDfb4SB2lakcjmnnVWtCLBpMVcZ6x9TwDhtCw="
+      ]
+    }
+  }
+}
